@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "bulunyawiji",
+    "name": "Kaos Desa Bulu Nyawiji",
     "slug": "bulunyawiji",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/logo-nyawiji.jpeg",
     "scheme": "bulunyawiji",
     "userInterfaceStyle": "automatic",
     "ios": {
@@ -12,31 +12,39 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundColor": "#0d9488",
+        "foregroundImage": "./assets/images/logo-nyawiji.jpeg",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.khairul17.bulunyawiji"
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/logo-nyawiji.jpeg"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
-          "image": "./assets/images/splash-icon.png",
+          "backgroundColor": "#0d9488",
+          "image": "./assets/images/logo-nyawiji.jpeg",
           "imageWidth": 76
         }
-      ]
+      ],
+      "expo-sharing"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e8bf894c-1dcc-4f52-9d47-61daffaae7a0"
+      }
     }
   }
 }
